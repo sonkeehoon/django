@@ -1,4 +1,4 @@
-# https://www.youtube.com/watch?v=drPvtMNJOoM&list=PLuHgQVnccGMDLp4GH-rgQhVKqqZawlNwG&index=6
+# https://www.youtube.com/watch?v=YDDE0Nnxob4&list=PLuHgQVnccGMDLp4GH-rgQhVKqqZawlNwG&index=13
 # django
 설치 : python3 -m pip install django
 실행 가능한 명령어확인 : django-admin
