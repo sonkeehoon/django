@@ -1,0 +1,21 @@
+# https://www.youtube.com/watch?v=drPvtMNJOoM&list=PLuHgQVnccGMDLp4GH-rgQhVKqqZawlNwG&index=6
+
+설치 : python3 -m pip install django
+실행 가능한 명령어확인 : django-admin
+프로젝트 만들기 : django-admin startproject myproject . ('myproject'라는 이름으로 .(현재위치)에 생성)
+앱 만들기 : django-admin startapp myapp
+서버 실행 : python3 manage.py runserver (옵션 : python3 manage.py)
+    - 실행중에 서버를 끄려면 Ctrl + C
+    - django의 기본 포트는 8000번 포트
+        - 다른 포트(ex 8888)를 쓰고 싶다면 python3 manage.py runserver 8888
+
+django의 작동 원리 : https://www.youtube.com/watch?v=QX8CQMycDa0&list=PLuHgQVnccGMDLp4GH-rgQhVKqqZawlNwG 
+위 url의 4/14, 5/14 강의
+/read/1이 실행되는 순서
+1. myproject/urls.py 에서 include안의('myapp.urls')
+2. myapp/urls.py 에서 path('read/<id>/',views.read)실행
+3. myapp/views.py의 read(request, id) 실행(HttpResponse)
+
+
+
+
