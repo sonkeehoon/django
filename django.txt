@@ -1,5 +1,5 @@
 # https://www.youtube.com/watch?v=drPvtMNJOoM&list=PLuHgQVnccGMDLp4GH-rgQhVKqqZawlNwG&index=6
-
+# django
 설치 : python3 -m pip install django
 실행 가능한 명령어확인 : django-admin
 프로젝트 만들기 : django-admin startproject myproject . ('myproject'라는 이름으로 .(현재위치)에 생성)
